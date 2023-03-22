@@ -1,0 +1,46 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "pages-home"
+    },
+    {
+      "url": "/hikes",
+      "name": "Hikes",
+      "icon": "menu-icon tf-icons bx bx-walk",
+      "slug": "pages-hikes"
+    },
+    {
+      "url": "/modes",
+      "name": "Modes",
+      "icon": "menu-icon tf-icons bx bx-purchase-tag-alt",
+      "slug": "pages-modes"
+    },
+    {
+      "url": "/types",
+      "name": "Types",
+      "icon": "menu-icon tf-icons bx bx-list-ul",
+      "slug": "pages-types"
+    },
+    {
+      "url": "/reports",
+      "name": "Reports",
+      "icon": "menu-icon tf-icons bx bx-spreadsheet",
+      "slug": "pages-reports"
+    },
+    {
+      "url": "/backups",
+      "name": "Backups",
+      "icon": "menu-icon tf-icons bx bx-hdd",
+      "slug": "pages-backups"
+    },
+    {
+      "url": "/users",
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "pages-users"
+    }
+  ]
+}
