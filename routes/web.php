@@ -49,13 +49,13 @@ $controller_path = 'App\Http\Controllers';
     Route::get('/types/switch/{type_id}', $controller_path . '\pages\Types@switch')->name('pages.types.switch');
 
     //Modes
-    Route::get('/modes', $controller_path . '\pages\Modes@index')->name('pages-modes');
-    Route::get('/modes/create', $controller_path . '\pages\Modes@create')->name('modes.create');
-    Route::post('/modes/store', $controller_path . '\pages\Modes@store')->name('modes.store');
-    Route::get('/modes/show/{type_id}', $controller_path . '\pages\Modes@show')->name('pages.modes.show');
-    Route::post('/modes/update', $controller_path . '\pages\Modes@update')->name('pages.modes.update');
-    Route::get('/modes/destroy/{type_id}', $controller_path . '\pages\Modes@destroy')->name('pages.modes.destroy');
-    Route::get('/modes/switch/{type_id}', $controller_path . '\pages\Modes@switch')->name('pages.modes.switch');
+    Route::get('/hikes', $controller_path . '\pages\Hikes@index')->name('pages-hikes');
+    Route::get('/hikes/create', $controller_path . '\pages\Hikes@create')->name('hikes.create');
+    Route::post('/hikes/store', $controller_path . '\pages\Hikes@store')->name('hikes.store');
+    Route::get('/hikes/show/{type_id}', $controller_path . '\pages\Hikes@show')->name('pages.hikes.show');
+    Route::post('/hikes/update', $controller_path . '\pages\Hikes@update')->name('pages.hikes.update');
+    Route::get('/hikes/destroy/{type_id}', $controller_path . '\pages\Hikes@destroy')->name('pages.hikes.destroy');
+    Route::get('/hikes/switch/{type_id}', $controller_path . '\pages\Hikes@switch')->name('pages.hikes.switch');
 
     
 });
